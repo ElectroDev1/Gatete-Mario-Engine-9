@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 8,
-  "bbox_right": 40,
+  "bbox_right": 39,
   "bbox_top": 0,
-  "bbox_bottom": 6,
+  "bbox_bottom": 4,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 48,
-  "height": 18,
+  "height": 5,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},"LayerId":{"name":"48cc2c63-02cc-4416-89a2-4dae523680d9","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_wanderingpit","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},"resourceVersion":"1.0","name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5d53021c-ba26-43a2-935a-7937d678e630","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5d53021c-ba26-43a2-935a-7937d678e630","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},"LayerId":{"name":"48cc2c63-02cc-4416-89a2-4dae523680d9","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_wanderingpit_mask","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},"resourceVersion":"1.0","name":"5d53021c-ba26-43a2-935a-7937d678e630","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_wanderingpit","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},
+    "spriteId": {"name":"spr_wanderingpit_mask","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"98a7c138-d85e-481e-aa29-bfdc21de9c5f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d437127a-90d2-4642-b33f-f90a84ec2557","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d53021c-ba26-43a2-935a-7937d678e630","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 1,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_wanderingpit","path":"sprites/spr_wanderingpit/spr_wanderingpit.yy",},
+    "parent": {"name":"spr_wanderingpit_mask","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_wanderingpit",
+    "name": "spr_wanderingpit_mask",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -71,7 +71,7 @@
     "left": 8,
     "top": 0,
     "right": 8,
-    "bottom": 8,
+    "bottom": 0,
     "guideColour": [
       4294902015,
       4294902015,
@@ -97,7 +97,7 @@
     "path": "folders/Sprites/Enemies/Ghost.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_wanderingpit",
+  "name": "spr_wanderingpit_mask",
   "tags": [],
   "resourceType": "GMSprite",
 }

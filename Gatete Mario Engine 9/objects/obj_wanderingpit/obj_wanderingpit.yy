@@ -5,7 +5,11 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "managed": true,
+  "spriteMaskId": {
+    "name": "spr_wanderingpit_mask",
+    "path": "sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_enemyparent_deact",
@@ -22,7 +26,12 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":48.0,"y":0.0,},
+    {"x":48.0,"y":18.0,},
+    {"x":0.0,"y":18.0,},
+  ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
